@@ -8,8 +8,6 @@ from statsmodels.stats.outliers_influence import variance_inflation_factor
 import streamlit.components.v1 as components
 
 
-
-
 model=pd.read_csv("RegModel.csv")
 andalucia=pd.read_csv("andalucia.csv")
 aragon=pd.read_csv("aragon.csv")
